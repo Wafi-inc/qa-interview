@@ -14,12 +14,12 @@ Packages and Programs to Install
   Refer to the link to install [Python](https://www.python.org/downloads/)
 
 ## APP
-The application  is a simple crud django app to manage employee record.
+The application  is a simple crud django app to manage employee records.
 The  allowed operations are post, delete , update and edit employee tables.
 
 | Endpoint  | GET | POST | PUT | DELETE |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |
-| apis/emp | List all employee | Create: Add an employee. ** Body** - {id: "id" ,"name": "name","email": "email","Phone_Number": "number"} | 	N/A |	N/A
+| apis/emp | List all employee | Create: Add an employee. **Body** - {id: "id" ,"name": "name","email": "email","Phone_Number": "number"} | 	N/A |	N/A
 | apis/emp/<int: employee_id> | Retrieve: Get an employee with employee_id|	N/A	| Update: Update a employee with given employee_id	| Delete: Delete a employee with given employee_id
 
 
