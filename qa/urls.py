@@ -24,6 +24,6 @@ urlpatterns = [
     path('edit/<int:id>', views.edit),  
     path('update/<int:id>', views.update),  
     path('delete/<int:id>', views.destroy),  
-    path('apis/emp',urls.getAll ),
-    path('apis/emp/<int:id>', urls.getAll )
+    path('api/emp',urls.getAll ),
+    path('api/emp/<int:id>', urls.getAll )
 ]

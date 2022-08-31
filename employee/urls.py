@@ -32,11 +32,13 @@ def getAll(request,id=None):
             return Response({"status": "error", "data": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
     elif request.method == 'DELETE':
         employee = get_object_or_404(Employee, id=id)
-        return Response({"status": "success", "data": "Item Deleted"})
+        return Response({"status": "success", "data": "Item Deleted"},status=status.HTTP_201_CREATED)
     elif request.method == 'PUT':
-        employee = Employee.objects.get(id=id)  
+        employee = Employee.objects.get(id=id)
+        serializer = EmployeeSerializer(data=employees, many=True,partial=True)
+        print(serializer.is_valid())  
         return Response({"status": "success"})
-    return Response({"status": "error", "data": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
+    return Response({"status": "error", "data": serializer.data}, status=status.HTTP_400_BAD_REQUEST)
 
 
 
