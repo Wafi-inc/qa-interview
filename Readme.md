@@ -13,6 +13,17 @@ Packages and Programs to Install
 ## Install Python
   Refer to the link to install [Python](https://www.python.org/downloads/)
 
+
+##  The APP
+The application  is a simple crud django app  that for a company.
+The  allowed operations are  post, delete , update and edit employee tables.
+
+| Endpoint  | GET | POST | PUT | DELETE |
+| ------------- | ------------- |
+| apis/emp | List all employee | Create: Add a employee | 	N/A |	N/A
+| apis/emp/<int: employee_id> | Retrieve: Get an employee with employee_id|	N/A	| Update: Update a employee with given employee_id	| Delete: Delete a employee with given employee_id
+
+
 ## Running the App
 
 Open your terminal and navigate to where you'd like this repo to be downloaded. You can clone the repo by typing the following into the command line:
