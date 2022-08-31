@@ -15,7 +15,7 @@ Packages and Programs to Install
 
 ## APP
 The application  is a simple crud django app to manage employee records.
-The  allowed operations are post, delete , update and edit employee tables.
+The allowed operations are post, delete , update and edit employee tables.
 
 | Endpoint  | GET | POST | PUT | DELETE |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |
@@ -58,7 +58,7 @@ Feel free to dazzle with your solutions.
 
 ###  Submission
 
-Upon completion, please email with attachement
+Upon completion, please email with following attachment
 1. Digital report of your findings.
 2. Postman test collections and selenium script.
 
