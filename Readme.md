@@ -3,7 +3,7 @@
 
 Hi, If you are viewing this, it is because you scaled through to the next round of the recruitment for the  QA position at Wafi. Congratulations 🎉✨.
 
-WAFi is a fintech company, code must be thoroughly tested before deployed to production. As part of the QA Engineer interview process, candidates are asked to showcase their ability in both manual and automated testing.
+WAFi is a fintech company,therefore, code must be thoroughly tested before deployed to production. As part of the QA Engineer interview process, candidates are asked to showcase their ability in both manual and automated testing.
 
 
 ## Getting Setup
@@ -14,13 +14,13 @@ Packages and Programs to Install
   Refer to the link to install [Python](https://www.python.org/downloads/)
 
 ## APP
-The application  is a simple crud django app to manage employee records.
+The application is a simple crud django app to manage employee records.
 The allowed operations are post, delete , update and edit employee tables.
 
 | Endpoint  | GET | POST | PUT | DELETE |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |
 | apis/emp | List all employee | Create: Add an employee. **Body** - {id: "id" ,"name": "name","email": "email","Phone_Number": "number"} | 	N/A |	N/A
-| apis/emp/<int: employee_id> | Retrieve: Get an employee with employee_id|	N/A	| Update: Update a employee with given employee_id	| Delete: Delete a employee with given employee_id
+| apis/emp/<int: employee_id> | Retrieve: Get an employee with employee_id|	N/A	| Update: Update an employee with given employee_id	| Delete: Delete an employee with given employee_id
 
 
 ## Running the App
@@ -50,7 +50,7 @@ Visit http://127.0.0.1:8000/emp on your browser to the default page.
 
 ### Automated QA
 
- - Write a postman test collection  for the endpoint, the test must cover both working and failed functionality.
+ - Write a postman test collection for the endpoints, the test must cover both working and failed functionality.
  - Feel free to report any bug noticed in the endpoints
  - Using selenium, Write a test script to test the submit button. Include the selenium script and relevenant steps to run it.
 
@@ -58,7 +58,7 @@ Feel free to dazzle with your solutions.
 
 ###  Submission
 
-Upon completion, please email with following attachments
+Upon completion, please send an email with the following attachments
 1. Digital report of your findings.
 2. Postman test collections and selenium script.
 
