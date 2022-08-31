@@ -58,7 +58,7 @@ Feel free to dazzle with your solutions.
 
 ###  Submission
 
-Upon completion, please email with following attachment
+Upon completion, please email with following attachments
 1. Digital report of your findings.
 2. Postman test collections and selenium script.
 
