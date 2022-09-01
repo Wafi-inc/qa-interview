@@ -38,7 +38,7 @@ cd  qa-interview-assignment
 pip install -r requirements.txt
 python manage.py runserver
 ```
-Visit http://127.0.0.1:8000/emp on your browser to the default page. 
+After running the above command, Visit http://127.0.0.1:8000/emp on your browser to the default page. 
 
 ## Your task
 
