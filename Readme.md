@@ -19,8 +19,8 @@ The allowed operations are post, delete , update and edit employee tables.
 
 | Endpoint  | GET | POST | PUT | DELETE |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |
-| apis/emp | List all employee | Create: Add an employee. **Body** - {id: "id" ,"name": "name","email": "email","Phone_Number": "number"} | 	N/A |	N/A
-| apis/emp/<int: employee_id> | Retrieve: Get an employee with employee_id|	N/A	| Update: Update an employee with given employee_id	| Delete: Delete an employee with given employee_id
+| api/emp | List all employee | Create: Add an employee. **Body** - {id: "id" ,"name": "name","email": "email","Phone_Number": "number"} | 	N/A |	N/A
+| api/emp/<int: employee_id> | Retrieve: Get an employee with employee_id|	N/A	| Update: Update an employee with given employee_id	| Delete: Delete an employee with given employee_id
 
 
 ## Running the App
