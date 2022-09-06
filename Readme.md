@@ -28,7 +28,7 @@ The allowed operations are post, delete , update and edit employee tables.
 Open your terminal and navigate to where you'd like this repo to be downloaded. You can clone the repo by typing the following into the command line:
 
 ```
-git clone https://github.com/Wafi-inc/qa-interview-assignment.git
+git clone https://github.com/Wafi-inc/qa-interview.git
 ```
 
 To start the app,
